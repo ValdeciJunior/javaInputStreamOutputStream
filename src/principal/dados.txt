@@ -1,7 +1,1 @@
-<html>
-	<body>
-		<applet code="unidade2.AloMundo.class" width="150" height="150">
-			Texto mostrado = browser incomátível
-		</applet>
-	</body>
-</html>
+Valdeci Rolim da Mota Junior

@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 
 public class StreamApp {
 	public static void byteStram() throws Exception {
-		FileInputStream entrada = new FileInputStream("/home/valdeci/eclipse-workspace/java-OutputStream-InputStram/src/principal/dados.txt");
+		FileInputStream entrada = new FileInputStream("/home/valdeci/Workspace/javaInputStreamOutputStream/src/principal/dados.txt");
 		int c = 0;
 		while((entrada.read()) != -1) {
 			c++;
@@ -15,7 +15,7 @@ public class StreamApp {
 	}
 	
 	public static void caractereStream(char letra) throws Exception {
-		FileInputStream entrada = new FileInputStream("/home/valdeci/eclipse-workspace/java-OutputStream-InputStram/src/principal/dados.txt");
+		FileInputStream entrada = new FileInputStream("/home/valdeci/Workspace/javaInputStreamOutputStream/src/principal/dados.txt");
 		int c = 0;
 		int cc;
 		while((cc = entrada.read()) != -1) {
